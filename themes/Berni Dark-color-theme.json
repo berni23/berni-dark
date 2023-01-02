@@ -117,14 +117,32 @@
 			"settings": {
 				"foreground": "#6c7de0",
 							
-
 			}
 		},
 		{
 			"name":"func",
 			"scope": "entity.name.function",
 			"settings": {
+
+
+				//"foreground": "#82AAFF",
 				"foreground": "#6c7de0",
+				"fontStyle": ""
+				
+				
+			}
+		},
+	{
+			"name":"support func",
+			"scope": "support.function",
+			"settings": {
+
+
+
+				"foreground": "#82AAFF",
+				//"foreground": "#D19A66",
+				//"foreground": "#91C0EC",
+				"fontStyle": "italic"
 				
 				
 			}
@@ -309,10 +327,8 @@
 		{
 			"name": "Function, Special Method",
 			"scope": [
-				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
-				"support.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
