@@ -7,18 +7,47 @@
 		"sideBarTitle.foreground": "#bbbbbb"
 		
 	},
+
 	"tokenColors": [
 		{
-			"name": "Comment",
-			"scope": [
-				"comment",
-				"punctuation.definition.comment"
-			],
+
+			"name": "entity",
+			"scope":["entity.name","string.quoted","entity.name.import","punctuation.definition.string"],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#bcbccc99",
+				"foreground": "#8EB99FE3",
+				"fontStyle": "italic"
+			}
+		},{
+
+			"name": "entity",
+			"scope":["string.quoted.raw"],
+			"settings": {
+				"foreground": "#91c0ec",
+				"fontStyle": ""
 			}
 		},
+		{
+
+			"name": "entity",
+			"scope":["string.quoted.double"],
+			"settings": {
+				
+				 "fontStyle": "italic",
+			}
+		},
+
+		//constants
+
+		{
+			"name":"constants",
+			"scope":["constant.other.placeholder","constant.other.placeholder.go","constant.language","constant.language.go"],
+			"settings" :{
+				"foreground": "#D19A66"
+				
+			}
+		},
+
+		//variables
 		{
 			"name": "Variables",
 			"scope": [
@@ -56,24 +85,7 @@
 			}
 		},
 
-		{
-			"name":"string",
-			"scope": ["String","string.quoted.double.go"],
-			"settings": {
-			   "foreground": "#38b9e0e3"
-			}
-		},
 
-
-		{
-
-			"name": "entity",
-			"scope":["entity.name","string.quoted.double","entity.name.import","punctuation.definition.string"],
-			"settings": {
-				"foreground": "#8EB99FE3",
-				// "fontStyle": "bold"
-			}
-		},
 		{
 
 			"name": "entity alias",
@@ -103,7 +115,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#6c7de0"
+				"foreground": "#6c7de0",
 							
 
 			}
@@ -113,57 +125,100 @@
 			"scope": "entity.name.function",
 			"settings": {
 				"foreground": "#6c7de0",
-				"fontStyle": ""
+				
+				
 			}
 		},
+
+
+
+		//entity, class, support 
 
 
 		{
-			"name": "Colors",
+			"name": "Class, Support",
 			"scope": [
-				"constant.other.color"
+				"entity.name",
+				"support.type",
+				"support.class",
+				"support.other.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#FFCB6B",
+
+			}
+		},{
+			"name": "Class, Support",
+			"scope": [
+				"entity.name.type",
+				
+			],
+			"settings": {
+				"foreground": "#FFCB6B",
+				 "fontStyle": ""
+
 			}
 		},
+
+		//keywords
+
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword.function",
-				"keyword.package.go",
-				"keyword"
+				"keyword",
 			],
 			"settings": {
-			
 				"foreground": "#D55FDE" ,
 			}
 		},
 			{
-			"name": "Keyword func",
+			"name": "Keyword fontstyle",
 			"scope": [
-				"keyword.function",
-			
+				"keyword.function","keyword.type","keyword.const","keyword.var"
 			],
 			"settings": {
-		
-
 				"fontStyle": "italic"
 			}
 		},
 
+		{
+			"name":"address",
+			"scope":["keyword.operator.address"],
+			"settings":{
+				
+				 "fontStyle": "bold"
+			}
+		},	
+		
+		{
+			"name":"keyword operators",
+			"scope":["keyword.operator.assignment","keyword.operator.comparison","keyword.operator"],
+			"settings":{
+				
+				 "foreground": "#E5C07B",
+				 "fontStyle": "bold"
+			}
+		},
 
-
-		//punctiation
-
+		//punctuation
 
 		 {
            "name":"Parenthesis",
 			"scope":["punctuation.definition.imports"],
 			"settings":{
 				"foreground": "#ABB2BF",
-
-				// "fontStyle": "bold"
+			}
+		 },		
+		 
+		 {
+           "name":"Colon",
+			"scope":["punctuation.other.colon","punctuation.other.colon.go"],
+			"settings":{
+				"foreground": "#E5C07B",
 			}
 		 },
 		 
@@ -172,32 +227,74 @@
 			"scope":["punctuation.definition.end.bracket","punctuation.definition.begin.bracket"],
 			"settings":{
 				"foreground": "#ABB2BF",
-
-				// "fontStyle": "bold"
 			}
 		 },
 
-		{
-	
-			"name": "Operator, Misc",
+		 {
+			"name": "Comment",
 			"scope": [
-				"keyword.control",
-				"constant.other.color",
-				"punctuation",
-				"meta.tag",
-				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
+				"comment",
+				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"fontStyle": "italic",
+				"foreground": "#bcbccc99",
 			}
 		},
+
+	
+		{
+			"name":"punctuation other",
+			"scope":["punctuation.other.comma","punctuation.other.period"],
+
+			"settings": {
+				"foreground": "#F78C6C"
+			}
+		
+		
+		},
+
+
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter",
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#F78C6C"
+			}
+		},
+
+
+		 //default 
+
+
+		 {
+			"name": "Colors",
+			"scope": [
+				"constant.other.color","source"
+			],
+			"settings": {
+				
+				
+				"foreground": "#ABB2BF",
+			}
+		},
+
+		 // boilerplate code
+
+
+		 //===========================================================================
+		 //===========================================================================
+		 //===========================================================================
+
 		{
 			"name": "Tag",
 			"scope": [
@@ -219,7 +316,8 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#82AAFF",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -241,22 +339,7 @@
 				"foreground": "#f07178"
 			}
 		},
-		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-			"scope": [
-				"constant.numeric",
-				"constant.language",
-				"support.constant",
-				"constant.character",
-				"constant.escape",
-				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other"
-			],
-			"settings": {
-				"foreground": "#F78C6C"
-			}
-		},
+
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
@@ -270,22 +353,6 @@
 			],
 			"settings": {
 				"foreground": "#C3E88D"
-			}
-		},
-		{
-			"name": "Class, Support",
-			"scope": [
-				"entity.name",
-				"support.type",
-				"support.class",
-				"support.other.namespace.use.php",
-				"meta.use.php",
-				"support.other.namespace.php",
-				"markup.changed.git_gutter",
-				"support.type.sys-types"
-			],
-			"settings": {
-				"foreground": "#FFCB6B"
 			}
 		},
 		{
@@ -746,3 +813,4 @@
 		}
 	]
 }
+
