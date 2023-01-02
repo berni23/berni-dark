@@ -2,9 +2,20 @@
   "name": "berni-dark",
   "displayName": "Berni Dark",
   "description": "Vintage dark mode theme!",
-  "version": "0.0.1",
+  "publisher": "berni23",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.74.0"
+  },
+  "icon": "icons/jelly.png",
+  "author": {
+    "name": "Bernat Ferrer",
+    "email": "bernatferrerm@gmail.com",
+    "url": "https://github.com/berni23"
+  },
+  "repository": {
+    "url": "https://github.com/berni23/berni-dark.git",
+    "type": "git"
   },
   "categories": [
     "Themes"
