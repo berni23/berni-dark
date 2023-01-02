@@ -1,0 +1,21 @@
+{
+  "name": "berni-dark",
+  "displayName": "Berni Dark",
+  "description": "Vintage dark mode theme!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Berni Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Berni Dark-color-theme.json"
+      }
+    ]
+  }
+}
