@@ -9,6 +9,9 @@
 	},
 
 	"tokenColors": [
+
+
+		// string 
 		{
 
 			"name": "entity",
@@ -34,7 +37,13 @@
 				
 				 "fontStyle": "italic",
 			}
-		},
+		},	
+
+
+
+		// parenthesis
+
+
 
 		//constants
 
@@ -127,18 +136,13 @@
 
 				//"foreground": "#82AAFF",
 				"foreground": "#6c7de0",
-				"fontStyle": ""
-				
-				
+				"fontStyle": ""	
 			}
 		},
 	{
 			"name":"support func",
 			"scope": "support.function",
 			"settings": {
-
-
-
 				"foreground": "#82AAFF",
 				//"foreground": "#D19A66",
 				//"foreground": "#91C0EC",
@@ -223,6 +227,32 @@
 		},
 
 		//punctuation
+
+
+		{
+
+			"name": "brackets",
+			"scope":["punctuation.definition.begin.bracket.curly","punctuation.definition.end.bracket.curly"],
+			"settings": {
+				
+				"foreground":"#FFCB6B",
+				//"fontStyle": "bold"
+				 
+			}
+		},
+		
+		{
+
+			"name": "brackets",
+			"scope":["punctuation.definition.begin.bracket.round","punctuation.definition.end.bracket.round"],
+			"settings": {
+				
+				"foreground":"#FFCB6B",
+			//	"fontStyle": "bold"
+
+				 
+			}
+		},
 
 		 {
            "name":"Parenthesis",
