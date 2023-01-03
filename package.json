@@ -4,7 +4,7 @@
   "pricing": "Free",
   "description": "Vintage dark mode theme!",
   "publisher": "BernatFerrer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.74.0"
   },
