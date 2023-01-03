@@ -6,13 +6,25 @@
 
 
 
-## Screenshots
+## Snippets
 
 
-<a href="https://imgur.com/91wqdGo"><img src="https://i.imgur.com/91wqdGo.png" title="source: imgur.com" /></a>
+
+<img src = "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Aqua.svg" width="10%" style="float:left"/>
 
 
-<a href="https://imgur.com/phQYFkB"><img src="https://i.imgur.com/phQYFkB.png" title="source: imgur.com" /></a>
+
+<div style="display:flex">
+
+<a href="https://imgur.com/4Ys1cZ3" style="float:left'"><img src="https://i.imgur.com/4Ys1cZ3.png" title="source: imgur.com" /></a>
+
+
+
+<a href="https://imgur.com/HvKHsnQ"><img src="https://i.imgur.com/HvKHsnQ.png" title="source: imgur.com" /></a>
+
+</div>
+
+
 
 
 
@@ -26,5 +38,4 @@
 
 
 ### [GitHub Repo](https://github.com/berni23/berni-dark)
-
 
