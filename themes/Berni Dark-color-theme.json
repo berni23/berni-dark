@@ -299,7 +299,7 @@
 			"scope":["punctuation.other.comma","punctuation.other.period"],
 
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#D19A66"
 			}
 		
 		
@@ -309,8 +309,8 @@
 		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
-				"constant.numeric",
-				"constant.language",
+				// "constant.numeric",
+				//"constant.language",
 				//"support.constant",
 				"constant.character",
 				"constant.escape",
@@ -318,7 +318,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#D19A66"
 			}
 		},
 
@@ -333,6 +333,16 @@
 			],
 			"settings": {	
 				"foreground": "#ABB2BF",
+			}
+		},
+
+	 {
+			"name": "constant num",
+			"scope": [
+				"constant.numeric",
+			],
+			"settings": {	
+				"foreground": "#32D7F8",
 			}
 		},
 
@@ -683,7 +693,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#D19A66"
 			}
 		},
 		{
@@ -822,7 +832,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#F78C6C"
+				"foreground": "#D19A66"
 			}
 		},
 		{
