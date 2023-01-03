@@ -10,7 +10,7 @@
 
 
 
-<img src = "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Aqua.svg" width="10%" style="float:left"/>
+<img src = "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png" width="10%" style="float:left"/>
 
 
 
