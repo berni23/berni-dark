@@ -3,7 +3,7 @@
   "displayName": "Berni Dark",
   "pricing": "Free",
   "description": "Vintage dark mode theme!",
-  "publisher": "berni23",
+  "publisher": "BernatFerrer",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.74.0"
@@ -15,9 +15,17 @@
     "url": "https://github.com/berni23"
   },
   "repository": {
-    "url": "https://github.com/berni23/berni-dark.git",
+    "url": "https://github.com/berni23/berni-dark",
     "type": "git"
   },
+
+  "keywords":[
+
+    "theme",
+    "dark theme",
+    "vintage theme",
+    "berni dark"
+  ],
   "categories": [
     "Themes"
   ],
