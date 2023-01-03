@@ -4,7 +4,7 @@
   "pricing": "Free",
   "description": "Vintage dark mode theme!",
   "publisher": "BernatFerrer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -18,13 +18,12 @@
     "url": "https://github.com/berni23/berni-dark",
     "type": "git"
   },
-
-  "keywords":[
-
+  "keywords": [
     "theme",
     "dark theme",
     "vintage theme",
-    "berni dark"
+    "berni dark",
+    "golang theme"
   ],
   "categories": [
     "Themes"

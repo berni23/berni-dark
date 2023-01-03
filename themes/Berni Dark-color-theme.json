@@ -311,7 +311,6 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
@@ -327,14 +326,77 @@
 		 {
 			"name": "Colors",
 			"scope": [
-				"constant.other.color","source"
+				"constant.other.color","source",
 			],
-			"settings": {
-				
-				
+			"settings": {	
 				"foreground": "#ABB2BF",
 			}
 		},
+
+
+
+
+
+		// javascript , typescript
+
+
+		{
+			
+			"name":"default variables js",
+			"scope": ["variable.other.constant.ts","variable.other.constant.js","variable.other.object.ts"],
+			"settings": {	
+				"foreground": "#ABB2BF",
+			}
+	},
+
+	{
+			
+			"name":" variables other js ts",
+			"scope": ["variable.other.property.ts","variable.other.property.js","variable.other.readwrite.ts","variable.other.readwrite.ts","variable.other.readwrite.alias.ts","variable.other.readwrite.alias.js"],
+			"settings": {	
+				"foreground": "#34BFC9",
+			}
+	},
+
+
+
+	//html
+
+
+	{
+		"name":"Html other",
+
+		"scope":["text.html", "html"],
+		"settings":{
+	
+			"foreground":"#ABB2BF",
+		
+		},
+	},
+	
+	{
+		"name":"Html punnctiation",
+
+		"scope":["punctuation.definition.tag.begin.html","punctuation.definition.tag.end.html"],
+		"settings":{
+		
+			"foreground":"#E5B07C"
+		
+		},
+	},
+
+	// {
+	// 	"name": "Block Level Variables",
+	// 	"scope": [
+	// 		"meta.block variable.other"
+	// 	],
+	// 	"settings": {
+	// 		"foreground": "#f07178"
+	// 	}
+	// },
+
+
+
 
 		 // boilerplate code
 
@@ -351,7 +413,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#34BFC9"
 			}
 		},
 		{
@@ -366,15 +428,7 @@
 				"fontStyle": ""
 			}
 		},
-		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other"
-			],
-			"settings": {
-				"foreground": "#f07178"
-			}
-		},
+	
 		{
 			"name": "Other Variable, String Link",
 			"scope": [
@@ -661,16 +715,16 @@
 				"foreground": "#C3E88D"
 			}
 		},
-		{
-			"name": "Markdown - Plain",
-			"scope": [
-				"text.html.markdown",
-				"punctuation.definition.list_item.markdown"
-			],
-			"settings": {
-				"foreground": "#EEFFFF"
-			}
-		},
+		// {
+		// 	"name": "Markdown - Plain",
+		// 	"scope": [
+		// 		"text.html.markdown",
+		// 		"punctuation.definition.list_item.markdown"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#EEFFFF"
+		// 	}
+		// },
 		{
 			"name": "Markdown - Markup Raw Inline",
 			"scope": [
