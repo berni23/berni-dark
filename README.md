@@ -14,17 +14,27 @@
 
 
 
-<div style="display:flex">
-
 <a href="https://imgur.com/4Ys1cZ3" style="float:left'"><img src="https://i.imgur.com/4Ys1cZ3.png" title="source: imgur.com" /></a>
 
+<a href="https://imgur.com/pPEqBTw"><img src="https://i.imgur.com/pPEqBTw.png" title="source: imgur.com" /></a>
 
 
-<a href="https://imgur.com/HvKHsnQ"><img src="https://i.imgur.com/HvKHsnQ.png" title="source: imgur.com" /></a>
-
-</div>
 
 
+
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" style="float:left" width="120" height="120" alt="Js" />
+
+
+
+<a href="https://imgur.com/AlIgRoU"><img src="https://i.imgur.com/AlIgRoU.png" title="source: imgur.com" /></a> 
+
+
+
+<img src="   https://cdn-icons-png.flaticon.com/512/919/919832.png " width="150" height="150" alt="TS" style="float:left">
+
+
+
+<a href="https://imgur.com/2KelGw5"><img src="https://i.imgur.com/2KelGw5.png" title="source: imgur.com" /></a>
 
 
 
