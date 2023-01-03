@@ -328,10 +328,8 @@
 
 
 
-
-
 		//------------------------------Markdown-------------------------------
-,
+
 		{
 			"name": "Markdown - Markup Raw Inline",
 			"scope": [
@@ -774,14 +772,7 @@
 			}
 		},
 
-		{
-			"name":"address",
-			"scope":["keyword.operator.address"],
-			"settings":{
-				
-				 "fontStyle": "bold"
-			}
-		},	
+
 		
 		{
 			"name":"keyword operators",
@@ -789,6 +780,7 @@
 			"settings":{
 				
 				 "foreground": "#E5C07B",
+				 "fontStyle": "bold"
 			}
 		},
 
@@ -813,7 +805,7 @@
 			"settings": {
 				
 				"foreground":"#FFCB6B",
-				"fontStyle": "bold"
+				//"fontStyle": "bold"
 
 				 
 			}
