@@ -2,7 +2,7 @@
 
 # [Berni Dark](https://marketplace.visualstudio.com/items?itemName=BernatFerrer.berni-dark)
 
- <i>The ultimate vintage dark theme,  optimized for working with GO . </i>
+ <i>The ultimate vintage dark theme </i>
 
 
 
