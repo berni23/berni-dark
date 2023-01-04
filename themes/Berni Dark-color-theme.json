@@ -735,6 +735,21 @@
 
 		{
 
+
+			"name":"support var prop",
+			"scope":["support.variable"],
+			"settings": {
+				"foreground": "#B2AFF5"
+
+
+				
+			}
+
+
+		},
+
+		{
+
 			"name": "entity alias",
 			"scope":["entity.alias","source"],
 			"settings": {
@@ -935,7 +950,19 @@
 
 	
 
+		
+		//------------------------------GO-------------------------------
 
+
+
+		// {
+
+		// 	"name":"source go",
+		// 	"scope":["source.go"],
+		// 	"settings": {
+		// 		"foreground": "#b2aff5"
+		// 	}
+		//  },
 		
 		//------------------------------Exceptions (very few occurrences)-------------------------------
 
