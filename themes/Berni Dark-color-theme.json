@@ -665,6 +665,8 @@
 			"scope": "entity.name.function",
 			"settings": {
 				"foreground": "#6c7de0",
+				//"gforeground": "#82AAFF",
+
 				"fontStyle": ""	
 			}
 		},
@@ -672,8 +674,8 @@
 			"name":"support func",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#82AAFF",
-				"fontStyle": "italic"
+				"foreground": "#34bfc9",
+				"fontStyle": ""
 				
 				
 			}
