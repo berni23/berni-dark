@@ -50,6 +50,16 @@
 <a href="https://imgur.com/2KelGw5"><img src="https://i.imgur.com/2KelGw5.png" title="source: imgur.com" /></a>
 
 
+### Recomendations
+
+
+
+Disable bracket pair colorization by adding the following line in your `settings.json`
+
+```
+    "editor.bracketPairColorization.enabled": false,
+```
+
 
 ## [Contributors](https://github.com/berni23/berni-dark/graphs/contributors")
 
