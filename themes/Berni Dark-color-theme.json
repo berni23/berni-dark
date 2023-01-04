@@ -356,7 +356,8 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				
+				"foreground": "#ABB2BF"
 			}
 		},
 		{
@@ -402,7 +403,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#D19A66"
+				 "foreground": "#8EB99FE3"
 			}
 		},
 		{
