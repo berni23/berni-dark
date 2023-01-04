@@ -238,6 +238,20 @@
 		},
 
 
+		{
+			"name": "undefined",
+			"scope": [
+				"constant.language.undefined.ts","constant.language.undefined.js","constant.language.undefined"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#BCBCCC99"
+			}
+		},
+
+
+
+
 
 
 	  //------------------------------JSON-------------------------------
