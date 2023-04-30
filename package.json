@@ -2,9 +2,9 @@
   "name": "berni-dark",
   "displayName": "Berni Dark",
   "pricing": "Free",
-  "description": "Vintage dark mode theme!",
+  "description": "Vintage dark mode theme! Ideal for GO and typescript languages",
   "publisher": "BernatFerrer",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -23,7 +23,10 @@
     "dark theme",
     "vintage theme",
     "berni dark",
-    "golang theme"
+    "golang theme",
+    "golang",
+    "go",
+    "typescript"
   ],
   "categories": [
     "Themes"
