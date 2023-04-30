@@ -978,8 +978,8 @@
 		],
 		"settings": {
 		
-			"foreground": "#B2AFF5",
-				 "fontStyle": ""
+			//"foreground": "#B2AFF5",
+			"fontStyle": ""
 		}
 	},
 

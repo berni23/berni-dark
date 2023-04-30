@@ -1,9 +1,15 @@
-# Change Log
+# berni-dark theme Changelog
 
-All notable changes to the "berni-dark" extension will be documented in this file.
+<a name="1.0.6"></a>
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 1.0.6 (2023-04-30)
 
-## [Unreleased]
+- Set variable `this` to color `#B2AFF5` for typescript and javascript.
+      
+     * before   -> <span style="color: #FF5370">this</span>
+     * after    -> <span style="color: #B2AFF5">this</span>
 
-- Initial release
+
+## 1.0.3 (2023-01-04)
+
+  - First fully working version
