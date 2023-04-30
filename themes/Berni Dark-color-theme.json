@@ -963,7 +963,26 @@
 		// 		"foreground": "#b2aff5"
 		// 	}
 		//  },
+
+
+	//------------------------------TYPESCRIPT, JAVASCRIPT-------------------------------
+
+
+	
+	
+	{
+		"name": "this",
+		"scope": [
+			"variable.language.this.ts",
+			"variable.language.this.js"
+		],
+		"settings": {
 		
+			"foreground": "#B2AFF5",
+				 "fontStyle": ""
+		}
+	},
+
 		//------------------------------Exceptions (very few occurrences)-------------------------------
 
 
