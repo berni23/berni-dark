@@ -978,7 +978,7 @@
 		],
 		"settings": {
 		
-			//"foreground": "#B2AFF5",
+			"foreground": "#B2AFF5",
 			"fontStyle": ""
 		}
 	},
